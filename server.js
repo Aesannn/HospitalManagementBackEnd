@@ -24,7 +24,7 @@ dbConnection();
 
 app.use(
   cors({
-    origin:["https://hospital-management-front-end.vercel.app","http://localhost:5174"],
+    origin:["https://hospital-management-front-end.vercel.app","https://hospital-management-dashboard-opal.vercel.app","http://localhost:5174"],
     method: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
